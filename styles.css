@@ -7,9 +7,12 @@ body {
   background-color: #2F303A;
   font-family: poppins;
   color: #FFFFFF;
+  /*.Feelmusic{
+        @include flexbox($justify:centre)
+    } */
 }
 
-body div {
+body .Womanjp {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -22,6 +25,7 @@ body .navi {
 }
 
 body button {
+  margin: auto;
   background: #1762A7;
   color: azure;
 }

@@ -10,17 +10,18 @@ body {
     background-color: $mycolor;
     font-family: $myfont;
     color: $fontcolor;
-    div {
+    .Womanjp{
         display: flex;
     }
 
     .navi {
         justify-content: end;
     }
-    .Feelmusic{
+    /*.Feelmusic{
         @include flexbox($justify:centre)
-    }
+    } */
     button{
+        margin: auto;
         background: $btnColor;
         color: azure;
         
