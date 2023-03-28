@@ -1,7 +1,7 @@
 @import "./styles/modules/variables";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&family=Roboto:wght@300&display=swap");
 @import "./styles/modules/button";
-@import "./styles/modules/mixin"; 
+@import "./styles/modules/mixin";
 
 body {
     margin: 0;
@@ -10,7 +10,7 @@ body {
     background-color: $mycolor;
     font-family: $myfont;
     color: $fontcolor;
-    .Womanjp{
+    .Womanjp {
         display: flex;
     }
 
@@ -20,16 +20,19 @@ body {
     /*.Feelmusic{
         @include flexbox($justify:centre)
     } */
-    button{
+    button {
         margin: auto;
         background: $btnColor;
         color: azure;
-        
     }
-    .form1{
-        border: 5px;
-        border-radius: 10px;
+    .form1 {
+        position: absolute;
+        width: 793px;
+        height: 500px;
+        left: 400px;
+        
         border-color: blue;
-        border-bottom: 5px;
+        background: black;
+        border-radius: 20px;
     }
 }

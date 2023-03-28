@@ -31,9 +31,12 @@ body button {
 }
 
 body .form1 {
-  border: 5px;
-  border-radius: 10px;
+  position: absolute;
+  width: 793px;
+  height: 500px;
+  left: 400px;
   border-color: blue;
-  border-bottom: 5px;
+  background: black;
+  border-radius: 20px;
 }
 /*# sourceMappingURL=styles.css.map */
