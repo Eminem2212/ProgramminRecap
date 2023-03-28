@@ -5,7 +5,7 @@
 
 body {
     margin: 0;
-    padding: 0;
+    padding: 0%;
     box-sizing: border-box;
     background-color: $mycolor;
     font-family: $myfont;
@@ -25,5 +25,11 @@ body {
         background: $btnColor;
         color: azure;
         
+    }
+    .form1{
+        border: 5px;
+        border-radius: 10px;
+        border-color: blue;
+        border-bottom: 5px;
     }
 }
